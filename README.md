@@ -16,4 +16,4 @@ You can clone this sample by the following command:
 
 Running this sample
 ---
-See the instructions in [Getting started with MongoDB Service](http://www.ng.bluemix.net/docs/Services/MongoDB/Index.html).
+See the instructions in [Getting started with MongoDB Service](https://www.ng.bluemix.net/docs/#services/MongoDB/index.html#MongoDB).
