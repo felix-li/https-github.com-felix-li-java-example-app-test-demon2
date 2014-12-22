@@ -70,7 +70,7 @@ public class MainServlet extends HttpServlet implements Servlet {
   public String getServiceURI() throws Exception {
     CloudEnvironment environment = new CloudEnvironment();
     if ( environment.getServiceDataByLabels("mongodb-2.4").size() == 0 ) {
-        throw new Exception( "No MongoDB service is bund to this app!!" );
+        throw new Exception( "No MongoDB service is bound to this app!!" );
     } 
 
     Map credential = (Map)((Map)environment.getServiceDataByLabels("mongodb-2.4").get(0)).get( "credentials" );
