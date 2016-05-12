@@ -1,0 +1,8 @@
+applications:
+- path: target/java-mongodb-sample.war
+  memory: 256M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: mongdb-app
+  host: mongdb-app
+  disk_quota: 1024M
